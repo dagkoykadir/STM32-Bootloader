@@ -1,0 +1,17 @@
+22:19:19 **** Incremental Build of configuration Debug for project empty ****
+make -j22 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "empty.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\stmCoding\Boot_Project\empty\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="empty.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: empty.elf
+ 
+arm-none-eabi-size  empty.elf 
+arm-none-eabi-objdump -h -S empty.elf  > "empty.list"
+   text	   data	    bss	    dec	    hex	filename
+    660	      0	   1568	   2228	    8b4	empty.elf
+Finished building: default.size.stdout
+ 
+Finished building: empty.list
+ 
+
+22:19:20 Build Finished. 0 errors, 0 warnings. (took 695ms)
+

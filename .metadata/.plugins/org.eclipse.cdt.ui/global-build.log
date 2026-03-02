@@ -1,0 +1,55 @@
+22:19:06 **** Build of configuration Debug for project empty ****
+make -j22 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+../Src/main.c:22:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   22 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "empty.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\stmCoding\Boot_Project\empty\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="empty.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: empty.elf
+ 
+arm-none-eabi-size  empty.elf 
+arm-none-eabi-objdump -h -S empty.elf  > "empty.list"
+   text	   data	    bss	    dec	    hex	filename
+    652	      0	   1568	   2220	    8ac	empty.elf
+Finished building: default.size.stdout
+ 
+Finished building: empty.list
+ 
+22:19:18 **** Build of configuration Debug for project USER_APP ****
+make -j22 all 
+arm-none-eabi-size  USER_APP.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11924	     12	   1660	  13596	   351c	USER_APP.elf
+Finished building: default.size.stdout
+ 
+22:19:18 **** Build of configuration Debug for project USER_APP_2 ****
+make -j22 all 
+arm-none-eabi-size  USER_APP_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11924	     12	   1660	  13596	   351c	USER_APP_2.elf
+Finished building: default.size.stdout
+ 
+22:19:19 **** Build of configuration Debug for project USER_BOOTLOADER ****
+make -j22 all 
+arm-none-eabi-size  USER_BOOTLOADER.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15744	     12	   1700	  17456	   4430	USER_BOOTLOADER.elf
+Finished building: default.size.stdout
+ 
+22:19:19 **** Incremental Build of configuration Debug for project empty ****
+make -j22 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "empty.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\stmCoding\Boot_Project\empty\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="empty.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: empty.elf
+ 
+arm-none-eabi-size  empty.elf 
+arm-none-eabi-objdump -h -S empty.elf  > "empty.list"
+   text	   data	    bss	    dec	    hex	filename
+    660	      0	   1568	   2228	    8b4	empty.elf
+Finished building: default.size.stdout
+ 
+Finished building: empty.list
+ 

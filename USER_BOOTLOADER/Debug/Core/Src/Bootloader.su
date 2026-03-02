@@ -1,0 +1,11 @@
+../Core/Src/Bootloader.c:11:6:processBootloaderCommand	16	static
+../Core/Src/Bootloader.c:47:6:handleWriteProtection	4	static
+../Core/Src/Bootloader.c:52:6:handleEraseSector	80	static
+../Core/Src/Bootloader.c:151:6:handleWriteMemory	312	static
+../Core/Src/Bootloader.c:238:19:flashWrite	40	static
+../Core/Src/Bootloader.c:253:6:handleGoToAddress	24	static,ignoring_inline_asm
+../Core/Src/Bootloader.c:288:6:handleGetVersion	16	static
+../Core/Src/Bootloader.c:301:6:handleGetHelp	40	static
+../Core/Src/Bootloader.c:329:6:handleGetID	24	static
+../Core/Src/Bootloader.c:345:6:handleReadMemory	280	static
+../Core/Src/Bootloader.c:388:9:verifyAddress	16	static

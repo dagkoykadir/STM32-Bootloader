@@ -1,0 +1,10 @@
+22:19:18 **** Build of configuration Debug for project USER_APP_2 ****
+make -j22 all 
+arm-none-eabi-size  USER_APP_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11924	     12	   1660	  13596	   351c	USER_APP_2.elf
+Finished building: default.size.stdout
+ 
+
+22:19:18 Build Finished. 0 errors, 0 warnings. (took 321ms)
+

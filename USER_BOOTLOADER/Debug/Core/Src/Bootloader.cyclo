@@ -1,0 +1,11 @@
+../Core/Src/Bootloader.c:11:6:processBootloaderCommand	13
+../Core/Src/Bootloader.c:47:6:handleWriteProtection	1
+../Core/Src/Bootloader.c:52:6:handleEraseSector	11
+../Core/Src/Bootloader.c:151:6:handleWriteMemory	10
+../Core/Src/Bootloader.c:238:19:flashWrite	3
+../Core/Src/Bootloader.c:253:6:handleGoToAddress	4
+../Core/Src/Bootloader.c:288:6:handleGetVersion	1
+../Core/Src/Bootloader.c:301:6:handleGetHelp	1
+../Core/Src/Bootloader.c:329:6:handleGetID	1
+../Core/Src/Bootloader.c:345:6:handleReadMemory	4
+../Core/Src/Bootloader.c:388:9:verifyAddress	9

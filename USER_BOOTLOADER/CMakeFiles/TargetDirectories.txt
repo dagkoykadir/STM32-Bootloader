@@ -1,0 +1,4 @@
+D:/stmCoding/Boot_Project/USER_BOOTLOADER/CMakeFiles/USER_BOOTLOADER.elf.dir
+D:/stmCoding/Boot_Project/USER_BOOTLOADER/CMakeFiles/flash.dir
+D:/stmCoding/Boot_Project/USER_BOOTLOADER/CMakeFiles/edit_cache.dir
+D:/stmCoding/Boot_Project/USER_BOOTLOADER/CMakeFiles/rebuild_cache.dir

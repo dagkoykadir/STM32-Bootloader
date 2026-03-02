@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;USER_APP/Debug/Core/Src/firmware.bin&apos;" deleteContents="false" description="Delete resource &apos;USER_APP/Debug/Core/Src/firmware.bin&apos;" element1="/USER_APP/Debug/Core/Src/firmware.bin" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1754208837958"/>&#x0A;<refactoring comment="Delete resource &apos;USER_APP/Debug/Core/Src/armhex.exe&apos;" deleteContents="false" description="Delete resource &apos;USER_APP/Debug/Core/Src/armhex.exe&apos;" element1="/USER_APP/Debug/Core/Src/armhex.exe" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1754208843313"/>
+</session>

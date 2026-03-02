@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="searchhistory">
+		<item value="rxBuffer"/>
+		<item value="&quot;\n&quot;"/>
+		<item value="&quot;\r&quot;"/>
+		<item value="\r"/>
+		<item value="Sector"/>
+		<item value="packet"/>
+		<item value="messageBuffer"/>
+		<item value="ack"/>
+		<item value="008008000"/>
+		<item value="08008000"/>
+		<item value="address"/>
+		<item value="hal_delay"/>
+		<item value="SCB-&gt;"/>
+		<item value="HAL_UART_RxCpltCallback"/>
+		<item value="HAL_UART_IRQHandler"/>
+	</list>
+	<list key="replacehistory">
+		<item value="rxBuffer"/>
+	</list>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="&#x09;  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0))"/>
+		<list key="findhistory">
+			<item value="&#x09;  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0))"/>
+		</list>
+	</section>
+</section>

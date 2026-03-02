@@ -1,0 +1,10 @@
+13:13:53 **** Incremental Build of configuration Debug for project USER_BOOTLOAD ****
+make -j22 all 
+arm-none-eabi-size  USER_BOOTLOAD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10580	     12	   1660	  12252	   2fdc	USER_BOOTLOAD.elf
+Finished building: default.size.stdout
+ 
+
+13:13:53 Build Finished. 0 errors, 0 warnings. (took 159ms)
+

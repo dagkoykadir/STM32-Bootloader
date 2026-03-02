@@ -1,0 +1,10 @@
+22:19:19 **** Build of configuration Debug for project USER_BOOTLOADER ****
+make -j22 all 
+arm-none-eabi-size  USER_BOOTLOADER.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15744	     12	   1700	  17456	   4430	USER_BOOTLOADER.elf
+Finished building: default.size.stdout
+ 
+
+22:19:19 Build Finished. 0 errors, 0 warnings. (took 323ms)
+
